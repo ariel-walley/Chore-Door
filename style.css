@@ -22,7 +22,7 @@ HEADER
 INSTRUCTIONS TITLE
 */
 .title-row {
-    margin-top: 42px; /*was given from Codecademy */
+    margin-top: 42px; /* given from Codecademy */
     margin-bottom: 21px;
     text-align: center;
     color: white;
@@ -85,6 +85,7 @@ DOORS
 /* 
 START BUTTON
 */
+
 .start-row{
     margin: auto;
     width: 120px;
