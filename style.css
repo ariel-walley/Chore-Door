@@ -1,19 +1,66 @@
 body {
     background-color: #010165;
-    margin: 0px;
     text-align: center;
+    margin: 0;
   }
 
-#header {
+.header {
     background-color: #00ffff;
+    height: 60px; /* increased from original */
+    vertical-align: center;
 }
 
-#instructions {
+.header img {
+    margin-top: 7px; /* added from original */
+}
+
+.title-row {
+    margin-top: 42px; /*was given from Codecademy */
+    margin-bottom: 21px;
+    text-align: center;
     color: white;
 }
   
-.door-row {
+.instructions-title {
+    display: inline;
+    font-size: 18px;
+    color: #00ffff;
+    font-family: 'Work Sans';
+}
 
+.instructions {
+    display: flex;
+    width: 400px;
+    padding: 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers p {
+    margin: 0px;
+    padding: 5px 25px 5px 0px;
+    font-family: 'Work Sans';
+    font-size: 36px;
+    color: #00ffff;
+    align-content: space-between;
+}
+
+.instructions-steps {
+    align-content: space-between;
+}
+
+.instructions-steps p {
+    margin: 0px;
+    padding: 10px 0px;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.door-row {
+    text-align: center;
 }
 
 .door-frame {
