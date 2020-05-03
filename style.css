@@ -4,6 +4,10 @@ body {
     margin: 0;
   }
 
+/* 
+HEADER 
+*/
+
 .header {
     background-color: #00ffff;
     height: 60px; /* increased from original */
@@ -14,6 +18,9 @@ body {
     margin-top: 7px; /* added from original */
 }
 
+/* 
+INSTRUCTIONS TITLE
+*/
 .title-row {
     margin-top: 42px; /*was given from Codecademy */
     margin-bottom: 21px;
@@ -28,6 +35,9 @@ body {
     font-family: 'Work Sans';
 }
 
+/* 
+INSTRUCTIONS BODY
+*/
 .instructions {
     display: flex;
     width: 400px;
@@ -59,6 +69,10 @@ body {
     text-align: left;
 }
 
+/* 
+DOORS
+*/
+
 .door-row {
     text-align: center;
 }
@@ -66,4 +80,42 @@ body {
 .door-frame {
     cursor: pointer;
     padding: 10px;
+}
+
+/* 
+START BUTTON
+*/
+.start-row{
+    margin: auto;
+    width: 120px;
+    height: 43px;
+    padding: 10px;
+    font-family: 'Work Sans';
+    background-color: #eb6536;
+    font-size: 18px;
+    text-align: center;
+    color: #010165;
+    cursor: pointer;
+    border: 0;
+}
+
+.streak {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.streak p {
+    margin: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Work Sans';
+    font-weight: bold;
+}
+
+.streak-box {
+    margin: 5px;
+    background-color: #00ffff;
+    width: 50px;
+    height: 50px;
 }
