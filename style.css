@@ -16,14 +16,7 @@ body {
 
 }
 
-#door1 {
+.door-frame {
     cursor: pointer;
-}
-
-#door2 {
-
-}
-
-#door3 {
-
+    padding: 10px;
 }
