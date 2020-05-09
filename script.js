@@ -3,13 +3,17 @@ let beachDoor = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door
 let spaceDoor = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg';
 let defaultDoor = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg';
 
-let counter = 0;
+
+
+let turnCounter = 0;
+let gameCounter = 0;
 
 function doorPaths (param) {
 
     let door1 = document.getElementById('door1');
     let door2 = document.getElementById('door2');
     let door3 = document.getElementById('door3');
+    let currentStreakBox = document.getElementById('currentStreakBox');
 
     let randomFirstClick = Math.floor(Math.random() * 3); //prints 0, 1, or 2
     let randomSecondClick = Math.floor(Math.random() *2); //prints 0 or 1
@@ -20,39 +24,40 @@ function doorPaths (param) {
     } else if (param.src !== defaultDoor) { //Checking for clicking the same door twice
         console.log('Silly goose! You can\'t click on the same door twice!')
         return;
-    } else if (counter === 0) {  //For deciding what's behind door number one!
+    } else if (turnCounter === 0) {  //For deciding what's behind door number one!
         if (randomFirstClick === 0) {
-            counter++;
+            turnCounter++;
             return param.src = botDoor;
         } else if (randomFirstClick === 1) {
-            counter++;
+            turnCounter++;
             return param.src = beachDoor;
         } else if (randomFirstClick === 2) {
-            counter++;
+            turnCounter++;
             return param.src = spaceDoor;
         } 
-    } else if (counter === 1) { // For deciding what's behind door number two!
+    } else if (turnCounter === 1) { // For deciding what's behind door number two!
         if (door1.src === spaceDoor || door2.src === spaceDoor || door3.src === spaceDoor) {
             if (randomSecondClick === 0) {
-                counter++;
+                turnCounter++;
                 return param.src = beachDoor;
             } else {
-                counter++;
+                turnCounter++;
                 return param.src = botDoor;
             }
         } else if (door1.src === beachDoor || door2.src === beachDoor || door3.src === beachDoor) {
             if (randomSecondClick === 0) {
-                counter++;
+                turnCounter++;
                 return param.src = spaceDoor;
             } else {
-                counter++;
+                turnCounter++;
                 return param.src = botDoor;
             }
         }        
     } else { // For deciding what's behind door number three - end of game
         param.src = botDoor;
-        counter++
-        console.log('Counter is: ' + counter);
+        turnCounter++;
+        gameCounter++;
+        currentStreakBox.innerHTML = gameCounter;
         return;
     };
 };
