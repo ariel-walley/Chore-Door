@@ -83,15 +83,3 @@ function reset () {
     document.getElementById('button').innerHTML = 'Good luck!';
     return;
 };
-
-/* brainstorming:
-
-Option 1: you could assign each door an image and reveal on click
-    you could have the 6 different combinations and it cycle through them
-    you could have a hidden image state and then a revealed state
-
-Option 2: you could have the first click decide which of the 3 to pick and then the second click decide each of the remaining two
-    add random number generator to decide which door to pick?
-
-    also - have to track whether or not the robot is clicked!
-*/
