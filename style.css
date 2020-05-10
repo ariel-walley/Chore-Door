@@ -86,11 +86,11 @@ DOORS
 START BUTTON
 */
 
-.start-row{
-    margin: auto;
+.button {
+    margin-top: 10px;
     width: 120px;
-    height: 43px;
-    padding: 10px;
+    height: 60px;
+    padding: 5px;
     font-family: 'Work Sans';
     background-color: #eb6536;
     font-size: 18px;
@@ -100,14 +100,15 @@ START BUTTON
     border: 0;
 }
 
-.button {
+.boxes {
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 
 }
 
-.button p {
-    margin: 5px;
+.boxes p {
+    margin: 15px 0px;
     color: white;
     font-size: 12px;
     font-family: 'Work Sans';
@@ -119,4 +120,6 @@ START BUTTON
     background-color: #00ffff;
     width: 50px;
     height: 50px;
+    font-family: 'Work Sans';
+    font-size: 45px;
 }
