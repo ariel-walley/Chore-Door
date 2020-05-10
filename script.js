@@ -36,11 +36,9 @@ function doorPaths (param) {
     let randomSecondClick = Math.floor(Math.random() *2); //prints 0 or 1
 
     if (door1.src === botDoor || door2.src === botDoor || door3.src === botDoor) { //Checking if any robots to end game
-        console.log('Oops, there\'s a robot. Game over!');
         lose();
         return;
     } else if (param.src !== defaultDoor) { //Checking for clicking the same door twice
-        console.log('Silly goose! You can\'t click on the same door twice!')
         return;
     } else if (turnCounter === 0) {  //For deciding what's behind door number one!
         if (randomFirstClick === 0) {
