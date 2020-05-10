@@ -10,3 +10,5 @@ Several changes were made from the Codecademy version:
   * I adjusted the CSS to include more height and margin in the header, expand the width of the main text, and add more height to the main button to better vertically center the text.
   * I removed the HTML tables and used divs and flexbox to better format the content.
   * In Javascript, I saw that the different door combinations were hard-coded into a switch statement, and I was hoping to have live, active logic to make the code more dynamic. I accomplished this using if/else statements and reduced the overall lines of code nearly by half.
+  
+My next goal for this project is to streamline the if/else statements so additional doors can be added with minimal to no changes to the code.
