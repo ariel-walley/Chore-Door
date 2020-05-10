@@ -12,6 +12,7 @@ let currentStreak = 0;
 let bestStreak = 0;
 
 function win () {
+    document.getElementById('button').innerHTML = 'You win! Play again?'
     turnCounter = 0;
     currentStreak++;
     document.getElementById('currentStreakBox').innerHTML = currentStreak;
@@ -23,6 +24,7 @@ function win () {
 };
 
 function lose () {
+    document.getElementById('button').innerHTML = 'Game over! Play again?'
     turnCounter = 0;
     currentStreak = 0;
     document.getElementById('currentStreakBox').innerHTML = currentStreak;
@@ -80,6 +82,7 @@ function reset () {
     door1.src = defaultDoor;
     door2.src = defaultDoor;
     door3.src = defaultDoor;
+    document.getElementById('button').innerHTML = 'Good luck!';
     return;
 };
 
