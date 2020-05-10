@@ -2,7 +2,7 @@
 Simple online game created with JavaScript, CSS, and HTML
 
 # Introduction
-This project was created as part of the Codeacademy project aimed at enhancing skills in Javascript. The official Codeademy version can be found <a href="https://s3.amazonaws.com/codecademy-content/projects/chore-door/chore-door-final/index.html" target="_blank">at this link</a>
+This project was created as part of the Codeacademy project aimed at enhancing skills in Javascript. The official Codeademy version can be found [at this link](https://s3.amazonaws.com/codecademy-content/projects/chore-door/chore-door-final/index.html).
 
 This version of Chore Door was created independently of Codecademy's instructions to improve independent learning and creative problem-solving.
 
