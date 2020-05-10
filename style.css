@@ -100,26 +100,40 @@ START BUTTON
     border: 0;
 }
 
-.boxes {
+/* 
+CURRENT AND BEST STREAK BOXES
+*/
+
+.streak-row {
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 
 }
 
-.boxes p {
-    margin: 15px 0px;
+.streak-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.streak-container p {
+    margin: 15px;
     color: white;
     font-size: 12px;
     font-family: 'Work Sans';
     font-weight: bold;
+    letter-spacing: 1.1px;
+    text-align: center;
 }
 
 .streak-box {
-    margin: 5px;
+    width: 59px;
+    height: 53px;
+    padding: 8px;
+    margin: 5px auto 20px auto;
     background-color: #00ffff;
-    width: 50px;
-    height: 50px;
     font-family: 'Work Sans';
+    font-weight: bold;
     font-size: 45px;
 }
+
