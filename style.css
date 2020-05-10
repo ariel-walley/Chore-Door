@@ -100,13 +100,13 @@ START BUTTON
     border: 0;
 }
 
-.streak {
+.button {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.streak p {
+.button p {
     margin: 5px;
     color: white;
     font-size: 12px;
