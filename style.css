@@ -41,26 +41,25 @@ INSTRUCTIONS BODY
 .instructions {
     display: flex;
     width: 400px;
-    padding: 0px;
     margin: auto;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.numbers p {
+.instr-steps {
+    display: flex;
+    align-items: center;
+}
+
+.instr-number {
+    width: 21px;
     margin: 0px;
     padding: 5px 25px 5px 0px;
     font-family: 'Work Sans';
     font-size: 36px;
     color: #00ffff;
-    align-content: space-between;
 }
 
-.instructions-steps {
-    align-content: space-between;
-}
-
-.instructions-steps p {
+.instr-text {
     margin: 0px;
     padding: 10px 0px;
     font-family: 'Work Sans';
