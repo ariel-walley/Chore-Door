@@ -1,5 +1,6 @@
 # Chore Door
 Simple online game created with JavaScript, CSS, and HTML.
+
 Repl available here: https://repl.it/@viajera/ChoreDoor
 
 # Introduction
