@@ -1,7 +1,7 @@
 # Chore Door
 Simple online game created with JavaScript, CSS, and HTML.
 
-Repl available here: https://repl.it/@viajera/ChoreDoor
+App available here: https://codesandbox.io/s/chore-door-project-ntx9q
 
 # Introduction
 This project was created as part of the Codeacademy project aimed at enhancing skills in Javascript. The official Codeademy version can be found [at this link](https://s3.amazonaws.com/codecademy-content/projects/chore-door/chore-door-final/index.html).
